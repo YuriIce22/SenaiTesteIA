@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1b1c30;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+        .container {
+            text-align: center;
+            width: 350px;
+        }
+        .logo {
+            width: 150px;
+            height: 150px;
+        }
+        h2 {
+            font-size: 40px;
+            margin: 20px 0;
+        }
+        input {
+            width: 85%;
+            padding: 14px;
+            margin: 12px 0;
+            border: none;
+            border-radius: 12px;
+            background-color: #2a2b38;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+        }
+        input::placeholder {
+            color: gray;
+        }
+        .btn {
+            background-color: rgb(117, 199, 120);
+            color: black;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-size: 18px;
+        }
+        .register-text {
+            margin-top: 15px;
+            color: white;
+            font-size: 20px;
+        }
+        .register-text a {
+            color: white;
+            text-decoration: underline;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .container-links{
+width: 100vw;
+display: flex;
+flex-direction: row;
+position: absolute;
+top: 85%;
+justify-content: center;
+}
+
+.container-links a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="container-links">
+        <a href="index.html">ChatGPT</a>
+        <a href="DeepSeek.html">DeepSeek</a>
+        <a href="Gemini.html">Gemini</a>
+    </div>
+    
+    <div class="container">
+        <img src="https://secure.gravatar.com/blavatar/7db71b0ca89bb23855371a4b5d220f26f699c5eca4b5c9809d0ce06e30945a3d?s=240" alt="Logo" class="logo">
+        <h2>LOGIN</h2>
+        <input type="email" placeholder="Digite seu e-mail">
+        <input type="password" placeholder="Digite sua senha">
+        <p class="register-text">Ainda não tem uma conta? <a href="#">Crie uma.</a></p>
+        <button class="btn">Entrar</button>
+    </div>
+</body>
+</html>

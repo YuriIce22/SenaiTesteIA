@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <!-- Importando a fonte Roboto do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos gerais da página */
+        body {
+            background-color: #1b1c30;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+
+        /* Container principal */
+        .login-container {
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        /* Estilo da logo */
+        .logo {
+            width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        /* Título "LOGIN" */
+        .login-title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        /* Campos de entrada (email e senha) */
+        .input-field {
+            width: 75%; /* Largura dos inputs */
+            padding: 15px; /* Aumentado verticalmente */
+            margin-bottom: 15px;
+            border-radius: 10px; /* Arredondado levemente */
+            border: none;
+            background-color: #2a2b38;
+            color: white;
+            font-size: 1rem;
+            outline: none;
+        }
+
+        /* Placeholder dos campos */
+        .input-field::placeholder {
+            color: #ccc;
+        }
+
+        /* Texto "Ainda não tem uma conta? Crie uma." */
+        .create-account {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Link "Crie uma." */
+        .create-account a {
+            color: rgb(117, 199, 120);
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .create-account a:hover {
+            text-decoration: underline;
+        }
+
+        /* Botão "Entrar" */
+        .login-button {
+            width: 30%; /* Menor que a metade dos inputs */
+            padding: 10px;
+            border-radius: 8px;
+            border: none;
+            background-color: rgb(117, 199, 120);
+            color: black;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-button:hover {
+            background-color: rgb(100, 180, 100);
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <!-- Logo -->
+        <img src="https://secure.gravatar.com/blavatar/7db71b0ca89bb23855371a4b5d220f26f699c5eca4b5c9809d0ce06e30945a3d?s=240" alt="Logo" class="logo">
+
+        <!-- Título "LOGIN" -->
+        <h1 class="login-title">LOGIN</h1>
+
+        <!-- Campos de entrada -->
+        <input type="email" class="input-field" placeholder="Email">
+        <input type="password" class="input-field" placeholder="Senha">
+
+        <!-- Texto "Ainda não tem uma conta? Crie uma." -->
+        <p class="create-account">Ainda não tem uma conta? <a href="#">Crie uma.</a></p>
+
+        <!-- Botão "Entrar" -->
+        <button class="login-button">Entrar</button>
+    </div>
+</body>
+</html>

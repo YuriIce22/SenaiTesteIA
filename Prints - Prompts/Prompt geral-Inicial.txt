@@ -1,0 +1,13 @@
+Faça um código para uma tela de login.
+
+O html terá a página de cor #1b1c30, terá uma logo maior que o texto de login, imagem que está através desse link: 
+https://secure.gravatar.com/blavatar/7db71b0ca89bb23855371a4b5d220f26f699c5eca4b5c9809d0ce06e30945a3d?s=240
+Toda pagina deve ter a fonte de Roboto e Sans-serif, importe do google.
+
+Em baixo da logo, terá uma titulo de "LOGIN" bem grande e embaixo, dois campos para inserir email e outro para inserir a senha com a cor #2a2b38. Esses campos além de ter placeholders de cor cinza, suas caixas devem ser do mesmo tamanho do "LOGIN", um pouco menores no tamanaho horizontal (quase no mesmo tamanho do Ainda não tem uma conta? Crie uma.) e manter o tamanho vertical. Devem ser um pouco arredondadas.
+
+Escreva em baixo "Ainda não tem uma conta? Crie uma." com uma ação de clique apenas no "Crie uma.". Esse texto deve ser um pouco maior. 
+
+E por fim, crie um botão levemente arredondado de cor rgb(117, 199, 120) escrito entrar com a coloração preta e centralizada, embaixo do "Ainda não tem uma conta? Crie uma."
+
+Deixe todos os elementos centralizados na tela.
